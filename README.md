@@ -16,12 +16,14 @@ If you like this project, please give it a Star.If you have interest and want to
  ```$ cd AI_Coach_Sports```
  3. Install the requirements:
  You can use pip or conda
- pip :
+
+pip :
  ```$ python -m pip install -r requirements.txt```
+ 
  conda :
  ```$ conda create -n aicoach_venv python=3.9```		
-```$ conda activate aicoach_venv```
-``$ python -m pip install -r requirements.txt``
+ ```$ conda activate aicoach_venv```
+ ```$ python -m pip install -r requirements.txt```
 
 4.  Open ``.env`` file  and add your own [API key](https://beta.openai.com/account/api-keys)
  
