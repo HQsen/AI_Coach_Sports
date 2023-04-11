@@ -37,11 +37,16 @@ pip :
 ![picture 2](https://github.com/HQsen/AI_Coach_Sports/blob/main/image/3.png)
 As displayed above,you can input your players's characteristics respectively in this format :
 
-**Point Guard(position 1):. "your player's  characteristics"
-	Shooting Guard(position 2):  "your player's  characteristics"
-	Small Forward(position 3): "your player's  characteristics"
-	Power Forward(position 4): "your player's  characteristics"
-	Centre(position 5): "your player's  characteristics"**
+**Point Guard(position 1):. "your player's  characteristics"**
+
+**Shooting Guard(position 2):  "your player's  characteristics"**
+
+**Small Forward(position 3): "your player's  characteristics"**
+
+**Power Forward(position 4): "your player's  characteristics"**
+
+**Centre(position 5): "your player's  characteristics"**
+
 
 If some players do not have unique strengths, you can write **"no specific skill set''**
 
