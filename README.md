@@ -1,26 +1,26 @@
-# AI Coach of sports 
+# AI Coach of sport 
 If you like this project, please give it a Star.If you have interest and want to  make it more useful or expend its function ,feel free to open an issue or pull request.
 ## Introduction 
 - This is an **AI Coach** based on **chatgpt**  , which can customize effective plays according to different players with different skills in your team.
 (Now it just support basketball offence plays. In the future, maybe soccer,football ······and defense plays will come.)  And looking forward the early using of gpt-4!
 - If you want your team to win more game but do not understand plays a lot,you can try it.
 - Here are some examples :
-[picture 1] 
-[picture 2] 
+![picture 1](https://github.com/HQsen/AI_Coach_Sports/blob/main/image/1.png)
+![picture 2](https://github.com/HQsen/AI_Coach_Sports/blob/main/image/2.png)
 
 
 ##  Setup
  1. Clone this repository
- ```$ git clone https://gitic.git```
+ ```$ git clone https://github.com/HQsen/AI_Coach_Sports.git```
  2. Navigate into the project directory
- ```$ cd openaon```
+ ```$ cd AI_Coach_Sports```
  3. Install the requirements:
  You can use pip or conda
  pip :
  ```$ python -m pip install -r requirements.txt```
  conda :
- ```$ conda create -n gp python=3.9```		
-```$ conda activate gptac_venv```
+ ```$ conda create -n aicoach_venv python=3.9```		
+```$ conda activate aicoach_venv```
 ``$ python -m pip install -r requirements.txt``
 
 4.  Open ``.env`` file  and add your own [API key](https://beta.openai.com/account/api-keys)
@@ -31,8 +31,8 @@ If you like this project, please give it a Star.If you have interest and want to
 
 
 ## Generate  your own plays 
-[picture 1] 
-[picture 2] 
+![picture 1](https://github.com/HQsen/AI_Coach_Sports/blob/main/image/1.png)
+![picture 2](https://github.com/HQsen/AI_Coach_Sports/blob/main/image/3.png)
 As displayed above,you can input your players's characteristics respectively in this format :
 
 **Point Guard(position 1):. "your player's  characteristics"
