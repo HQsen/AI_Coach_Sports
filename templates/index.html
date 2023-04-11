@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <title>Basketball plays Generater</title>
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='basketball.png') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main2.css') }}" />
+</head>
+
+<body>
+  <img src="{{ url_for('static', filename='basketball.png') }}" class="icon" />
+  <h3>Basketball plays Generater</h3>
+  <h4>Please enter players info in followings format： <br>Point Guard(position 1):           <br>Shooting Guard(position 2):<br>Small Forward(position 3):  <br>Power Forward(position 4):<br>Centre(position 5): </h4>
+  <form action="/" method="post">
+    <textarea name="players" placeholder="Point Guard(position 1): 
+Shooting Guard(position 2): 
+Small Forward(position 3): 
+Power Forward(position 4):
+Centre(position 5):
+" required></textarea>
+    <input type="submit" value="Generate plays" />
+  </form>
+  {% if result %}
+  <div class="result">{{ result }}</div>
+  {% endif %}
+</body>
